@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator Segitiga</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <div class="container-4">
+        <div>
+          <h1 class="fetchingpink">inikatik</h1>  
+          <p class="color-1">Hi friends, Welcome to Katik 🤗 <br> Salah satu web apps sederhana yang bisa membantu anda menghitung keliling dan luas segitiga.</p>
+        </div>
+        <script src="js/script.js"></script>
+        <div class="container-1">
+            <div class="container-2">
+                <img src="Luas Segitiga.png" class="image">
+                <label for="alas" class="fetchingpink">alas:</label>
+                <input type="number" id="alas" placeholder="Masukkan nilai alas">
+  
+                <label for="tinggi" class="fetchingpink">tinggi:</label>
+                <input type="number" id="tinggi" placeholder="Masukkan nilai tinggi">
+
+                <button onclick="hitungluas()" class="hitung">Hitung Luas</button>
+                <div id="result-1"></div>
+            </div>
+            <div class="container-3">
+                <img src="Keliling Segitiga.png" class="image">
+                <label for="sisi1" class="fetchingpink">sisi 1:</label>
+                <input type="number" id="sisi1" placeholder="Masukkan nilai sisi 1">
+  
+                <label for="sisi2" class="fetchingpink">sisi 2:</label>
+                <input type="number" id="sisi2" placeholder="Masukkan nilai sisi 2">
+        
+                <label for="sisi3" class="fetchingpink">sisi 3:</label>
+                <input type="number" id="sisi3" placeholder="Masukkan nilai sisi 3">
+
+                <button onclick="hitungkeliling()" class="hitung">Hitung Keliling</button>
+                <div id="result-2"></div>
+            </div>
+        </div>
+        <div>
+            <a href="index.html" class="button-2">Kembali</a>
+        </div>
+    </div> 
+</body>
+
+</html>

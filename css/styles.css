@@ -1,0 +1,161 @@
+body {
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  margin: 50px 50px;
+  border: none;
+  padding :50px 50px;
+  height: auto;
+  width: 100%;
+}
+
+.container0{
+  width:800px;
+  height:400px;
+  margin:auto;
+  border: 3px solid rgb(211, 158, 166);
+  border-radius: 10px;
+  padding : auto;
+  background-color: rgb(255, 208, 216);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: auto;
+}
+
+.fetchingpink {
+  color: rgb(211, 158, 166);
+}
+
+.color-1{
+  color: white;
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 10px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+p {
+  line-height: 1.5;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.container {
+  width:200px;
+  height:150px;
+  margin:auto;
+  border: 3px solid rgb(211, 158, 166);
+  border-radius: 10px;
+  padding : auto;
+  background-color: rgb(249, 217, 222);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: auto;
+}
+
+.button-1 {
+  margin: auto;
+  border: auto;
+  border-radius: 100px;
+  padding: 50px;
+  background-color: rgb(211, 158, 166);
+  text-transform: uppercase;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+  font-size:larger;
+  align-self: flex-start;
+
+}
+
+.button-1:hover {background-color: rgb(185, 126, 135)
+}
+
+.button-1:active {
+background-color: rgb(155, 109, 117);
+transform: translateY(4px);
+}
+
+.container-1{
+  display: flex;
+  justify-content:space-around;
+}
+
+.container-2, .container-3{
+  width: 40%;
+  margin: auto;
+  padding: 10px;
+  border: 3px solid rgb(211, 158, 166);
+  background-color: rgb(249, 217, 222);
+  flex-direction: column;
+  display: flex;
+  border: 3px solid white;
+  justify-content:center;
+  align-items: auto;
+}
+
+.container-4 {
+  width:auto;
+  height: auto;
+  margin: 10px 15px;
+  padding: 20px;
+  border: 3px solid rgb(211, 158, 166);
+  border-radius: 10px;
+  background-color: rgb(255, 208, 216);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: auto;
+}
+
+.image{
+  width: 60%;
+  margin: auto;
+  padding : 10px;
+  place-self: center stretch;
+}
+
+.button-2{
+  background-color: rgb(201, 124, 137);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 5px;
+  text-decoration: none;
+  text-align: center;
+  margin: 5px 5px;
+  cursor: pointer;
+  font-size: medium;
+  width:auto;
+  align-self: flex-start;
+}
+
+.button-2:hover {background-color: rgb(185, 126, 135)
+}
+
+.button-2:active {
+background-color: rgb(155, 109, 117);
+transform: translateY(4px);
+}
+
+.hitung{
+  width: 30%;
+  margin: auto;
+  color: rgb(131, 72, 82);
+
+}
+
+label {
+  margin-bottom: 2px;
+  display: block;
+}
+
+input {
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
